@@ -2,9 +2,180 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forage Production</title>
+    <link rel="stylesheet" href="Foundation-Sites-6.6.3-CSS/Foundation-Sites-6.6.3-CSS/assets/css/foundation.css">
+    <link rel="stylesheet" href="Foundation-Sites-6.6.3-CSS/Foundation-Sites-6.6.3-CSS/assets/js/vendor.js">
   </head>
   <body>
-<p>ingresa los siguientes datos</p>
-  </body>
+    <div class="callout">
+      <header class="grid-x grid-padding-x">
+          <h1>Oferta de forraje y carga animal</h1>
+      </header>
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <h2>Ingresa los siguientes datos</h2>
+          <div class="large-16 cell">
+
+
+            <form class="" action="index.html" method="post">
+
+            <!--farmData-->
+
+            <h3>Datos de la finca</h3>
+
+              <div class="grid-x grid-padding-x">
+
+                <!--farmName-->
+                <div class="large-4 medium-4 cell">
+                  <label style="font-size:20px;" for="farmName">Nombre de la finca</label>
+                  <input id="farmName" type="text" name="" value="" placeholder="Nombre de la finca">
+                </div>
+                <!---->
+
+                <!--farmLocation-->
+                <div class="large-4 medium-4 cell">
+                  <label style="font-size:20px;" for="farmLocation">Ubicación de la finca</label>
+                  <input id="farmLocation" type="text" name="" value="" placeholder="Ubicación de la finca">
+                </div>
+                <!---->
+
+                <!--farmAltitude-->
+                <div class="large-4 medium-4 cell">
+                  <label style="font-size:20px;" for="farmAltitude">Altitud de la finca</label>
+                  <div class="input-group">
+                    <input id="farmAltitude" type="number" name="" value="" placeholder="Altitud de la finca"
+                    class="input-group-field">
+                    <span class="input-group-label">msnm</span>
+                  </div>
+                </div>
+                <!---->
+
+                <!--farmTemperature-->
+                <div class="large-4 medium-4 cell">
+                  <label style="font-size:20px;" for="farmTemperature">Temperatura de la finca</label>
+                  <div class="input-group">
+                    <input id="farmTemperature" type="number" name="" value="" placeholder="Temperatura de la finca"
+                    class="input-group-field">
+                    <span class="input-group-label">°C</span>
+                  </div>
+                </div>
+                <!---->
+
+                <!--farmPrecipitation-->
+                <div class="large-4 medium-4 cell">
+                  <label style="font-size:20px;" for="farmPrecipitation">Precipitación de la finca</label>
+                  <div class="input-group">
+                    <input id="farmPrecipitation" type="number" name="" value="" placeholder="Precipitación de la finca"
+                    class="input-group-field">
+                    <span class="input-group-label">mm</span>
+                  </div>
+                </div>
+                <!---->
+
+              </div>
+              <!---->
+
+              <hr>
+
+              <!--paddockData-->
+
+              <h3>Datos del potrero</h3>
+
+                <div class="grid-x grid-padding-x">
+
+                  <!--areaPaddock-->
+                  <div class="large-4 medium-4 cell">
+                    <label style="font-size:20px;" for="areaPaddock">Área del potrero</label>
+                    <div class="input-group">
+                      <input id="areaPaddock" type="number" name="" value="" placeholder="Área del potrero"
+                      class="input-group-field">
+                      <span class="input-group-label">m2</span>
+                    </div>
+
+                  </div>
+                  <!---->
+
+                  <!--dryMaterial-->
+                  <div class="large-4 medium-4 cell">
+                    <label style="font-size:20px;" for="dryMaterial">Materia seca</label>
+                    <div class="input-group">
+                      <input id="dryMaterial" type="number" name="" value="" placeholder="Materia seca"
+                      class="input-group-field">
+                      <span class="input-group-label">%</span>
+                    </div>
+                  </div>
+                  <!---->
+
+                  <!--milkProductionDaily-->
+                  <div class="large-4 medium-4 cell">
+                    <label style="font-size:20px;" for="milkProductionDaily">Producción de litros diarios</label>
+                    <div class="input-group">
+                      <input id="milkProductionDaily" type="number" name="" value="" placeholder="Producción de litros diarios"
+                      class="input-group-field">
+                      <span class="input-group-label">Lts</span>
+                    </div>
+                  </div>
+                  <!---->
+
+                  <!--paddockRotation-->
+                  <div class="large-4 medium-4 cell">
+                    <label style="font-size:20px;" for="paddockRotation">Rotación por potreros</label>
+                    <div class="input-group">
+                      <input id="paddockRotation" type="number" name="" value="" placeholder="Rotación por potreros"
+                      class="input-group-field">
+                      <span class="input-group-label">Días</span>
+                    </div>
+                  </div>
+                  <!---->
+
+                  <!--forageLoss-->
+                  <div class="large-4 medium-4 cell">
+                    <label style="font-size:20px;" for="forageLoss">Perdida de forraje</label>
+                    <div class="input-group">
+                      <input id="forageLoss" type="number" name="" value="" placeholder="Perdida de forraje"
+                      class="input-group-field">
+                      <span class="input-group-label">%</span>
+                    </div>
+                  </div>
+                  <!---->
+
+                  <!--cowInProductions-->
+                  <div class="large-4 medium-4 cell">
+                    <label style="font-size:20px;" for="cowInProductions">Vacas en producción</label>
+                    <input id="cowInProductions" type="number" name="" value="" placeholder="Vacas en producción">
+                  </div>
+                  <!---->
+
+                  <!--weightAverageCow-->
+                  <div class="large-4 medium-4 cell">
+                    <label style="font-size:20px;" for="weightAverageCow">Peso promedio Peso vivo</label>
+                    <div class="input-group">
+                      <input id="weightAverageCow" type="number" name="" value="" placeholder="Peso promedio Peso vivo"
+                      class="input-group-field">
+                      <span class="input-group-label">Kg</span>
+                    </div>
+                  </div>
+                  <!---->
+
+                </div>
+                <!---->
+
+
+
+              <input id="calculation" type="submit" name="calcular" value="calcular">
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="Foundation-Sites-6.6.3-CSS/Foundation-Sites-6.6.3-CSS/assets/js/foundation.js">
+
+    </script>
+
+</body>
+
 </html>
